@@ -1222,7 +1222,7 @@ body {
   margin-bottom: 30px; }
   #lightgallery .item img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-    filter: gray;
+    filter: rgb(255, 255, 255);
     /* IE5+ */
     -webkit-filter: grayscale(0);
     /* Webkit Nightlies & Chrome Canary */
@@ -1234,7 +1234,7 @@ body {
 
 img {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-  filter: gray;
+  filter: rgb(255, 255, 255);
   /* IE5+ */
   -webkit-filter: grayscale(0);
   /* Webkit Nightlies & Chrome Canary */
