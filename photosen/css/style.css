@@ -1141,14 +1141,14 @@ body {
     background: #fff;
     color: #000; }
 
-    .btn-outline-black {
+.btn-outline-black {
       border-color: rgb(0, 0, 0);
       color: rgb(0, 0, 0);
       border-width: 2px;
       text-transform: uppercase;
       font-size: 11px;
       letter-spacing: .1em; }
-      .btn-outline-white:hover {
+      .btn-outline-black:hover {
         background: rgb(219, 219, 219);
         color: #000; }
 
