@@ -7,12 +7,12 @@ body {
   background: rgb(255, 255, 255); }
 
 ::-moz-selection {
-  background: rgb(255, 255, 255);
+  background: rgb(0, 255, 136);
   color: #fff; }
 
 ::selection {
-  background: rgb(255, 255, 255);
-  color: #fff; }
+  background: rgb(0, 153, 255); 
+  color: rgb(255, 255, 255); }
 
   a {
     -webkit-transition: .3s all ease;
@@ -74,11 +74,12 @@ body {
 .form-control {
   height: 43px;
   border-radius: 0;
+  
   background: transparent;
   border-color: #777;
-  color: #fff !important; }
+  color: rgb(0, 0, 0) !important; }
   .form-control:active, .form-control:focus {
-    border-color: #20c997;
+    border-color: #000000;
     background: transparent; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
