@@ -14,34 +14,34 @@ body {
   background: #000;
   color: #fff; }
 
-a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  a:hover {
-    text-decoration: none; }
-
-.text-black {
-  color: #000 !important; }
-
-.bg-black {
-  background: #000 !important; }
-
-.site-wrap:before {
-  -webkit-transition: .3s all ease-in-out;
-  -o-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
-  background: rgba(0, 0, 0, 0.6);
-  content: "";
-  position: absolute;
-  z-index: 2000;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  visibility: hidden; }
-
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a:hover {
+      text-decoration: none; }
+  
+  .text-black {
+    color: #000 !important; }
+  
+  .bg-black {
+    background: #000 !important; }
+  
+  .site-wrap:before {
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    background: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden; }
+  
 .offcanvas-menu .site-wrap {
   position: absolute;
   height: 100%;
@@ -1224,7 +1224,7 @@ a {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
     filter: gray;
     /* IE5+ */
-    -webkit-filter: grayscale(1);
+    -webkit-filter: grayscale(0);
     /* Webkit Nightlies & Chrome Canary */
     -webkit-transition: all .1s ease-in-out; }
   #lightgallery .item:hover img {
@@ -1236,7 +1236,7 @@ img {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray;
   /* IE5+ */
-  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(0);
   /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .1s ease-in-out; }
   img:hover {
