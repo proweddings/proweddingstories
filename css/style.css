@@ -1,5 +1,10 @@
 /* Base */
 body {
+  
+  
+  font-family: 'Montserrat', serif;
+    
+    
   line-height: 1.7;
   color: #777;
   font-weight: 300;
@@ -94,7 +99,7 @@ body {
     padding: 4em 0; }
 
 .site-section-heading {
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: relative;
   font-size: 2.5rem; }
   @media (min-width: 768px) {
