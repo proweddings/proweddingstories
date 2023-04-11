@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+  <title>Photography Portfolio</title>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#gallery" class="nav-link">Gallery</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <section id="home" class="home-section">
+    <img src="your-landing-image.jpg" alt="Landing Image">
+    <div class="overlay">
+      <h1>Your Name - Photography Portfolio</h1>
+      <p>Welcome to my photography portfolio. Take a look at my work!</p>
+      <button onclick="navigateToGallery()">View Gallery</button>
+    </div>
+  </section>
+  <section id="gallery" class="gallery-section">
+    <div class="masonry">
+      <!-- Add more images as desired -->
+      <img src="image-1.jpg" alt="Image 1">
+      <img src="image-2.jpg" alt="Image 2">
+      <img src="image-3.jpg" alt="Image 3">
+    </div>
+  </section>
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+</body>
+</html>
