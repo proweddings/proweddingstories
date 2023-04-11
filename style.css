@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    background: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .home-section {
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  .overlay h1, .overlay p {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  button:hover {
+    background: #444;
+  }
+  
+  .gallery-section {
+    padding: 1rem;
+  }
+  
+  .masonry {
+    column-count: 3;
+    column-gap: 1rem;
+  }
+  
+  .masonry img {
+    display: block;
+    margin-bottom: 1rem;
+    max-width:
+    100%;
+    width: 100%;
+  }
+  
+  .contact-section {
+    background: #f4f4f4;
+    padding: 1rem;
+  }
+  
+  .contact-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .masonry {
+      column-count: 1;
+    }
+  }
+  
+  
