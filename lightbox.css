@@ -36,4 +36,23 @@
     font-size: 1rem;
     margin-bottom: 1rem;
   }
+/* Add/modify the following styles */
+.seek-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
   
+  .prev-btn {
+    left: 1rem;
+  }
+  
+  .next-btn {
+    right: 1rem;
+  }
+    
